@@ -1,0 +1,14 @@
+{
+    "name": "dp/projet_toto",
+    "description": "simple training manager",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Patrick DIOGO",
+            "email": "dpatrick94@gmail.com"
+        }
+    ],
+    "require": {
+        "social-links/social-links": "^1.11"
+    }
+}
