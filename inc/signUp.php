@@ -18,15 +18,15 @@ if (!empty($_POST)) {
 		echo 'Le mot de passe n\'est pas identique<br>';
 		$formOk = false;
 	}
-	if (strlen($passwordToto1) < 8) {
+	if (strlen($passwordToto1) < 18) {
 		echo 'Le password doit contenir au moins 8 caractères<br>';
 		$formOk = false;
 	}
-	if (empty($emailToto)) {
+	if (empty($mailToto)) {
 		echo 'Email est vide<br>';
 		$formOk = false;
 	}
-	else if (!filter_var($emailToto, FILTER_VALIDATE_EMAIL)) {
+	else if (!filter_var($mailToto, FILTER_VALIDATE_EMAIL)) {
 		echo 'Email invalide<br>';
 		$formOk = false;
 	}

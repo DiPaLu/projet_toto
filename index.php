@@ -6,7 +6,3 @@ require_once 'inc/config.php';
 require_once 'inc/traSelList.php';
 
 
-// VIEW
-require_once 'views/header.php';
-require_once 'views/home.php';
-require_once 'views/footer.php';
